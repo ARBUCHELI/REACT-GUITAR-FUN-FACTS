@@ -1,0 +1,86 @@
+html {
+	overflow-x: hidden;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wall {
+	background-color: #622569;
+	padding: 20px;
+	border-radius: 10px;
+	border: solid 10px;
+	border-color:#5b9aa0;
+	text-align: center;
+	width: 90%;
+}
+
+.background {
+	position: absolute;
+	margin-top: 80px;
+	width: 95%;
+	z-index: 1;
+}
+
+#fact {
+	display: flex;
+	justify-content: center;
+  	position: fixed;
+	margin-top: 110px;
+	padding: 50px;
+	width: 80%;
+	font-size: 5vw;
+	z-index: 2;
+}
+
+.guitars {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	position: fixed;
+	margin: 260px;
+	width: 60%;
+	z-index: 2;
+}
+
+.guitar {
+	width: 33.3%;
+	border: solid 10px;
+	background-color: #85144b;
+	border-color: white;
+	border-radius: 10px;
+	margin: 25px 15px 15px 15px;
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media only screen and (max-width: 670px) {
+	.guitars {
+		margin-top: 180px;
+	}
+
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+	.guitars {
+		margin-top: 150px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.guitars {
+		margin-top: 130px;
+	}
+}
+
+@media only screen and (max-width: 200px) {
+	.guitars {
+		margin-top: 120px;
+	}
+}
